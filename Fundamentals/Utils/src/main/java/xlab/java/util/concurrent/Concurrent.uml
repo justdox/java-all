@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-108.0" y="46.0">java.util.concurrent.BlockingDeque</node>
+    <node x="-100.5" y="126.0">java.util.concurrent.ConcurrentMap</node>
+    <node x="-108.0" y="-14.0">java.util.concurrent.BlockingQueue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.concurrent.BlockingQueue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="13.5" y="110.0" />
+  <SelectedNodes>
+    <node>java.util.concurrent.BlockingQueue</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

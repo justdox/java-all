@@ -55,15 +55,15 @@ public class BinaryTree<T> {
           subTree.substring(subTree.length() - 1);
       }
 
-      int open = 0;
-      int close = 0;
+      int openCount = 0;
+      int closeCount = 0;
       for (int i = 0; i < subTree.length(); i++) {
         final char c = subTree.charAt(i);
         if (c == '{') {
-          open++;
+          openCount++;
         } else if (c == '}') {
-          close++;
-          if (close == open) {
+          closeCount++;
+          if (closeCount == openCount) {
             if (i + 1 == subTree.length()) {
               return "left".equals(sub) ? subTree : null;
             }

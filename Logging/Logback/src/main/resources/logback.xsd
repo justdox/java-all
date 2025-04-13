@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="http://logback.qos.ch/xml"
+           xmlns="http://logback.qos.ch/xml">
+
+  <!-- Root Configuration Element -->
+  <xs:element name="configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Appenders -->
+        <xs:element name="appender" minOccurs="0" maxOccurs="unbounded">
+          <xs:annotation>
+            <xs:documentation>
+              Defines an appender configuration. An appender is responsible for
+              writing log events to a specific
+              destination, such as a console, file, or remote server. For more
+              information about this appender, please refer to the online manual
+              at
+              <a href="https://logback.qos.ch/manual/appenders.html">
+                https://logback.qos.ch/manual/appenders.html</a>.
+            </xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="encoder" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                  <xs:documentation>
+                    Defines the encoder configuration for the appender. The
+                    encoder specifies how log messages are
+                    formatted. For more information about encoder, please refer
+                    to the online manual at <a
+                          href="https://logback.qos.ch/manual/encoders.html">
+                    https://logback.qos
+                    .ch/manual/encoders.html</a>.
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="pattern" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                  <xs:attribute name="class" type="xs:string" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="file" type="xs:string" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>
+                    指定日志文件的输出路径。该路径可以是相对路径或绝对路径。如果使用相对路径，则相对于应用程序的工作目录。
+                    例如：
+                    <ul>
+                      <li>logs/app.log</li>
+                      <li>/var/log/myapp.log</li>
+                      <li>C:/logs/application.log</li>
+                    </ul>
+                  </xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element name="rollingPolicy" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="fileNamePattern" type="xs:string">
+                      <xs:annotation>
+                        <xs:documentation>
+                          指定滚动日志文件的命名模式。支持以下占位符：
+                          <ul>
+                            <li>%d{yyyy-MM-dd}: 日期占位符，可自定义日期格式</li>
+                            <li>%i: 索引计数器</li>
+                            <li>.gz/.zip: 可选的压缩后缀</li>
+                          </ul>
+
+                          示例：
+                          <ul>
+                            <li>logs/app-%d{yyyy-MM-dd}.log</li>
+                            <li>logs/app-%d{yyyy-MM-dd}-%i.log</li>
+                            <li>logs/app-%d{yyyy-MM-dd}.log.gz</li>
+                          </ul>
+                        </xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="maxHistory" type="xs:integer"
+                                minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>
+                          控制保留的归档文件的最大数量。当旧的归档文件超过此数量时，它们将被删除。
+                          例如：
+                          - 如果设置为 30，且按天归档，则只保留最近 30 天的日志文件
+                          - 如果设置为 12，且按月归档，则只保留最近 12 个月的日志文件
+
+                          示例值：30
+                        </xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="totalSizeCap" type="xs:string"
+                                minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>
+                          设置所有日志文件的总大小限制。当所有日志文件的总大小超过此限制时，旧的日志文件将被删除。
+                          可以使用 KB，MB，GB 单位。例如：
+                          <ul>
+                            <li>100MB</li>
+                            <li>1GB</li>
+                          </ul>
+                        </xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                    <xs:element name="maxFileSize" type="xs:string"
+                                minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>
+                          当 class 属性为
+                          ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy
+                          时，此元素用于指定触发日志滚动的最大文件大小。例如：
+                          <ul>
+                            <li>10MB</li>
+                            <li>100KB</li>
+                          </ul>
+                        </xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="class" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="triggeringPolicy" minOccurs="0">
+                <xs:annotation>
+                  <xs:documentation>
+                    定义何时触发滚动策略。
+                    常见的触发策略包括基于文件大小的 SizeBasedTriggeringPolicy
+                    和基于时间的 TimeBasedTriggeringPolicy。
+                  </xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="maxFileSize" type="xs:string"
+                                minOccurs="0">
+                      <xs:annotation>
+                        <xs:documentation>
+                          当 class 属性为
+                          ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy
+                          时，
+                          此元素用于指定触发日志滚动的最大文件大小。例如：10MB,
+                          100KB。
+                        </xs:documentation>
+                      </xs:annotation>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="class" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+            <xs:attribute name="class" type="xs:string" use="required">
+              <xs:annotation>
+                <xs:documentation>
+                  Specifies the fully qualified class name of the appender
+                  implementation. This class must implement the necessary
+                  interfaces and provide the required functionality as per the
+                  Logback framework.
+                  The builtin appenders are:
+                  <a href="https://logback.qos.ch/manual/appenders.html#ConsoleAppender">
+                    ConsoleAppender</a>,
+                  <a href="https://logback.qos.ch/manual/appenders.html#FileAppender">
+                    FileAppender</a>,
+                  <a href="https://logback.qos.ch/manual/appenders.html#RollingFileAppender">
+                    RollingFileAppender</a>,
+                  <a href="https://logback.qos.ch/manual/appenders.html#SocketAppender">
+                    SocketAppender</a>,<a
+                        href="https://logback.qos.ch/manual/appenders.html#SyslogAppender">
+                  SyslogAppender</a>,
+                </xs:documentation>
+              </xs:annotation>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Loggers -->
+        <xs:element name="logger" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="appender-ref" minOccurs="0"
+                          maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="ref" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+            <xs:attribute name="level" use="optional">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="TRACE"/>
+                  <xs:enumeration value="DEBUG"/>
+                  <xs:enumeration value="INFO"/>
+                  <xs:enumeration value="WARN"/>
+                  <xs:enumeration value="ERROR"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="additivity" type="xs:boolean" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Root Logger -->
+        <xs:element name="root" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="appender-ref" minOccurs="0"
+                          maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="ref" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="level" use="optional">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="TRACE"/>
+                  <xs:enumeration value="DEBUG"/>
+                  <xs:enumeration value="INFO"/>
+                  <xs:enumeration value="WARN"/>
+                  <xs:enumeration value="ERROR"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Contextlisteners, property sources, etc. -->
+        <xs:element name="contextListener" minOccurs="0">
+          <xs:complexType>
+            <xs:attribute name="class" type="xs:string" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="property" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+
+      <!-- Configuration attributes -->
+      <xs:attribute name="scan" type="xs:boolean" use="optional"/>
+      <xs:attribute name="scanPeriod" type="xs:string" use="optional"/>
+      <xs:attribute name="debug" type="xs:boolean" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

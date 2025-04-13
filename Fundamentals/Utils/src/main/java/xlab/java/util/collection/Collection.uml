@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-66.5" y="-14.0">java.lang.Iterable</node>
+    <node x="290.0" y="226.0">java.util.Set</node>
+    <node x="253.5" y="466.0">java.util.NavigableSet</node>
+    <node x="-75.0" y="106.0">java.util.Collection</node>
+    <node x="455.5" y="466.0">java.util.Map</node>
+    <node x="89.5" y="226.0">java.util.List</node>
+    <node x="440.5" y="346.0">java.beans.beancontext.BeanContextServices</node>
+    <node x="118.0" y="346.0">java.util.Deque</node>
+    <node x="-93.0" y="466.0">java.util.concurrent.BlockingDeque</node>
+    <node x="470.5" y="226.0">java.beans.beancontext.BeanContext</node>
+    <node x="-62.0" y="226.0">java.util.Queue</node>
+    <node x="688.0" y="346.0">java.util.SortedSet</node>
+    <node x="-93.0" y="346.0">java.util.concurrent.BlockingQueue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.Queue" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.beans.beancontext.BeanContextServices" target="java.beans.beancontext.BeanContext" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="342.0" y="200.0" />
+      <point x="2.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.Deque" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2.0" y="440.0" />
+      <point x="182.0" y="440.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.SortedSet" target="java.util.Set" relationship="INTERFACE_GENERALIZATION">
+      <point x="-15.0" y="14.0" />
+      <point x="750.0" y="391.5" />
+      <point x="342.0" y="391.5" />
+      <point x="-0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.concurrent.BlockingQueue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.List" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="142.0" y="200.0" />
+      <point x="2.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Deque" target="java.util.Queue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="182.0" y="320.0" />
+      <point x="2.0" y="320.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.beans.beancontext.BeanContext" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="542.0" y="200.0" />
+      <point x="2.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.NavigableSet" target="java.util.SortedSet" relationship="INTERFACE_GENERALIZATION">
+      <point x="-0.0" y="-14.0" />
+      <point x="342.0" y="410.0" />
+      <point x="765.0" y="410.0" />
+      <point x="-0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0340909090909092" showDependencies="false" x="765.0" y="360.0" />
+  <SelectedNodes>
+    <node>java.util.SortedSet</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

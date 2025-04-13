@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="227.0" y="366.0">java.util.concurrent.ConcurrentSkipListSet</node>
+    <node x="576.0" y="-14.0">java.util.Set</node>
+    <node x="-120.5" y="226.0">java.util.NavigableSet</node>
+    <node x="76.0" y="226.0">java.util.EnumSet</node>
+    <node x="558.0" y="226.0">java.util.HashSet</node>
+    <node x="59.5" y="366.0">java.util.TreeSet</node>
+    <node x="267.0" y="226.0">java.util.concurrent.CopyOnWriteArraySet</node>
+    <node x="311.0" y="106.0">java.util.SortedSet</node>
+    <node x="494.0" y="366.0">java.util.LinkedHashSet</node>
+    <node x="485.0" y="106.0">java.util.AbstractSet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.TreeSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="40.0" y="-14.0" />
+      <point x="168.0" y="340.0" />
+      <point x="248.0" y="340.0" />
+      <point x="248.0" y="200.0" />
+      <point x="568.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.NavigableSet" relationship="REALIZATION">
+      <point x="-40.0" y="-14.0" />
+      <point x="88.0" y="280.0" />
+      <point x="-32.0" y="280.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.SortedSet" target="java.util.Set" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="388.0" y="60.0" />
+      <point x="608.0" y="60.0" />
+      <point x="-20.0" y="14.0" />
+    </edge>
+    <edge source="java.util.EnumSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="148.0" y="200.0" />
+      <point x="568.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="60.0" y="-14.0" />
+      <point x="408.0" y="340.0" />
+      <point x="528.0" y="340.0" />
+      <point x="528.0" y="200.0" />
+      <point x="568.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListSet" target="java.util.NavigableSet" relationship="REALIZATION">
+      <point x="-60.666666666666686" y="-14.0" />
+      <point x="287.3333333333333" y="320.0" />
+      <point x="88.0" y="320.0" />
+      <point x="88.0" y="280.0" />
+      <point x="-32.0" y="280.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="-40.0" y="-14.0" />
+      <point x="588.0" y="200.0" />
+      <point x="568.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="40.0" y="-14.0" />
+      <point x="628.0" y="340.0" />
+      <point x="728.0" y="340.0" />
+      <point x="728.0" y="80.0" />
+      <point x="668.0" y="80.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="40.0" y="-14.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArraySet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="388.0" y="200.0" />
+      <point x="568.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="568.0" y="80.0" />
+      <point x="668.0" y="80.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet" relationship="GENERALIZATION">
+      <point x="-40.0" y="-14.0" />
+      <point x="548.0" y="340.0" />
+      <point x="568.0" y="340.0" />
+      <point x="-60.0" y="14.0" />
+    </edge>
+    <edge source="java.util.NavigableSet" target="java.util.SortedSet" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-32.0" y="180.0" />
+      <point x="388.0" y="180.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0966628308400461" showDependencies="false" x="421.09916054564513" y="180.85099685204617" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

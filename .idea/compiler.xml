@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dataaccess-pojo" />
+        <module name="dataaccess-jdbc" />
+        <module name="dataaccess-jdbc-template" />
+        <module name="datastructure-algorithms" />
+        <module name="dataaccess-mybatis" />
+        <module name="advanced-networking" />
+        <module name="java-classes" />
+        <module name="messagequeues-rocketmq" />
+        <module name="spring-webmvc" />
+        <module name="fundamentals-cicd" />
+        <module name="logging-slf4j" />
+        <module name="dataaccess-datasource" />
+        <module name="fundamentals-util" />
+        <module name="dataaccess-utils" />
+        <module name="messagequeues-rabbitmq" />
+        <module name="advanced-threading" />
+        <module name="datastorages-redis" />
+        <module name="fundamentals-configuration" />
+        <module name="logging-log4j2" />
+        <module name="spring-framework" />
+        <module name="fundamentals-io" />
+        <module name="messagequeues-kafka" />
+        <module name="advanced-reflection" />
+        <module name="logging-logback" />
+        <module name="fundamentals-lang" />
+        <module name="spring-boot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Advanced" target="17" />
+      <module name="CICD" target="17" />
+      <module name="Configuration" target="17" />
+      <module name="DataAccess" target="17" />
+      <module name="DataAccessUtils" target="17" />
+      <module name="DataSource" target="17" />
+      <module name="DesignPattern" target="17" />
+      <module name="EssentialClasses" target="17" />
+      <module name="Fundamentals" target="17" />
+      <module name="IO" target="17" />
+      <module name="JavaAll" target="17" />
+      <module name="JDBC" target="17" />
+      <module name="JDBCTemplate" target="17" />
+      <module name="Kafka" target="17" />
+      <module name="Lang" target="17" />
+      <module name="Log4j2" target="17" />
+      <module name="Logback" target="17" />
+      <module name="Logging" target="17" />
+      <module name="MessageQueues" target="17" />
+      <module name="Middlewares" target="17" />
+      <module name="Mybatis" target="17" />
+      <module name="Networking" target="17" />
+      <module name="NoSQL" target="17" />
+      <module name="POJO" target="17" />
+      <module name="RabbitMQ" target="17" />
+      <module name="Redis" target="17" />
+      <module name="Reflection" target="17" />
+      <module name="RocketMQ" target="17" />
+      <module name="Slf4j" target="17" />
+      <module name="Threading" target="17" />
+      <module name="Utility" target="17" />
+      <module name="Utils" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

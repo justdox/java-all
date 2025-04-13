@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb1ec095-5f6c-4500-88b7-492df827999c" name="Changes" comment="Refactor module name and artifact id.">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EssentialClassess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringAll/SpringCloud/RegisterCenter/register-center.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Advanced.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/src/main/java/xlab/java/advanced/algorithms/list/MergeTwoOrderedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/src/main/java/xlab/java/advanced/datastructure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/src/main/java/xlab/java/advanced/datastructure/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/src/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DataStructureAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/DesignPattern.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/src/main/java/xlab/java/advanced/designpattern/BuilderPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/DesignPattern/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/Networking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Networking/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/src/main/java/xlab/java/advanced/networking/NetworkingDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/src/main/java/xlab/java/advanced/networking/URIDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/src/main/java/xlab/java/advanced/networking/URLDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Networking/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/Reflection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Reflection/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/src/main/java/xlab/java/advanced/reflection/ReflectionApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Reflection/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/Threading.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/Threading/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/src/main/java/xlab/java/advanced/threading/ThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/Threading/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccess.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/DataAccessUtils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataAccessUtils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/src/main/java/xlab/java/dataaccess/utils/AutoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccessUtils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/DataSource.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataSource/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/src/main/java/xlab/java/dataaccess/datasource/DataSourceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataSource/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/JDBC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/JDBC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/src/main/java/xlab/java/dataaccess/jdbc/JDBCApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/src/main/java/xlab/java/dataaccess/jdbc/utils/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBC/target/test-classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/JDBCTemplate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/JDBCTemplate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/src/main/java/xlab/java/dataaccess/jdbctemplate/JDBCTemplateApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/JDBCTemplate/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/MyBatis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/MyBatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/mybatis/MyBatisApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/mybatis/mappers/CityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/mybatis/mappers/CityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/mybatis/mappers/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/mybatis/mappers/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/mybatis/utils/MyBatisUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/mybatis/utils/PageResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/pojo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/java/xlab/java/dataaccess/pojo/StudentExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/classes/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/test-classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/MyBatis/target/test-classes/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/POJO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/POJO/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/src/main/java/xlab/java/dataaccess/pojo/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/POJO/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/EssentialClasses.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EssentialClasses/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/src/main/java/xlab/java/sdk/classes/exceptions/ExceptionExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/src/main/java/xlab/java/sdk/classes/exceptions/checked/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/src/main/java/xlab/java/sdk/classes/exceptions/checked/CustomThrowable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/src/main/java/xlab/java/sdk/classes/exceptions/unchecked/CustomError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/src/main/java/xlab/java/sdk/classes/exceptions/unchecked/CustomRuntimeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EssentialClasses/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/CICD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/CICD/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/src/main/java/xlab/java/fundamentals/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/CICD/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/Configuration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Configuration/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/src/main/java/xlab/java/fundamentals/configuration/ConfigurationApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Configuration/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Fundamentals.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/IO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/IO/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/BufferedInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/BufferedOutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/BufferedReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/BufferedWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/ByteArrayInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/ByteArrayOutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/CharArrayReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/CharArrayWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/ConsoleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/DataInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/DataOutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/DirectoryDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FileDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FileInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FileOutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FilePermissionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FileReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FileWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FilterReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/FilterWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/InputStreamReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/JavaIODemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/LineNumberInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/LineNumberReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/ObjectInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/ObjectOutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/OutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/OutputStreamWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PipedInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PipedOutputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PipedReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PipedWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PrintStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PrintWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PushbackInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/PushbackReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/RandomAccessFileDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/ReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/SequenceInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/SerializablePermissionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/StreamTokenizerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/StringBufferInputStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/StringReaderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/StringWriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/io/WriterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/nio/FilesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/java/xlab/java/fundamentals/nio/NIO-Buffers.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/resources/InputAndOutputStreams.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/resources/ReadersAndWriters.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/src/main/resources/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/target/classes/xlab/java/fundamentals/nio/NIO-Buffers.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/IO/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/Lang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/Lang/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/BooleanDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/CharacterDemoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/JavaLangDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/PrimitiveTypeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/StringDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/cloneable/CloneableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/cloneable/CloneableEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/entities/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/BigDecimalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/BigIntegerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/ByteDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/CharacterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/DoubleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/FloatDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/IntegerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/LongDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/numeric/ShortDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/serializable/SerializableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/src/main/java/xlab/java/lang/serializable/SerializableEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Lang/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/Utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/ArraysDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/Collection.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/CollectionFramework.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/IteratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/ScannerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/list/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/list/LinkedListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/list/List.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/list/VectorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/map/HashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/map/Map.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/map/TreeMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/queue/Queue.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/set/HashSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/set/Set.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/set/TreeSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/stream/IntStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/collection/stream/StreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/src/main/java/xlab/java/util/concurrent/Concurrent.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/classes/xlab/java/util/collection/Collection.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/classes/xlab/java/util/collection/CollectionFramework.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/classes/xlab/java/util/collection/list/List.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/classes/xlab/java/util/collection/map/Map.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/classes/xlab/java/util/collection/queue/Queue.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/classes/xlab/java/util/collection/set/Set.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/classes/xlab/java/util/concurrent/Concurrent.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/Utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fundamentals/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Fundamentals/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaAll.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/Log4j2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/Log4j2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/src/main/java/xlab/java/logging/log4j2/Log4j2App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/src/main/java/xlab/java/logging/log4j2/LogUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/target/classes/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Log4j2/target/test-classes/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/Logback.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/Logback/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/src/main/java/xlab/java/logging/logback/LogbackApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/src/main/resources/logback.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logback/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Logging.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/Slf4j.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/Slf4j/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/src/main/java/xlab/java/logging/slf4j/Slf4jApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/Slf4j/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/Kafka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/java/xlab/java/middlewares/messagequeues/kafka/examples/KafkaAdminTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/java/xlab/java/middlewares/messagequeues/kafka/examples/KafkaConsumerTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/java/xlab/java/middlewares/messagequeues/kafka/examples/KafkaExampleApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/java/xlab/java/middlewares/messagequeues/kafka/examples/KafkaProducerTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/java/xlab/java/middlewares/messagequeues/kafka/examples/KafkaTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/resources/client.admin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/resources/client.consumer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/resources/client.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/resources/client.producer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/main/resources/phy_ca.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/test/resources/client.consumer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/test/resources/client.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/test/resources/client.producer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/src/test/resources/junit-platform.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/classes/client.admin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/classes/client.consumer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/classes/client.producer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/test-classes/client.admin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/test-classes/client.consumer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/Kafka/target/test-classes/client.producer.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/MessageQueues.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/RabbitMQ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/src/main/java/xlab/java/middlewares/messagequeues/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RabbitMQ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/RocketMQ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/src/main/java/xlab/java/middlewares/messagequeues/rocketmq/RocketMQApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/RocketMQ/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/MessageQueues/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/MessageQueues/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/Middlewares.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/NoSQL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/RedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/controllers/GlobalErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/controllers/JedisApiControllerBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/controllers/JedisServerApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/controllers/JedisStringApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/java/xlab/java/middlewares/nosql/redis/controllers/RedisApiControllerBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/main/resources/templates/jedis/api/server/info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/Redis/src/test/java/xlab/java/middlewares/nosql/redis/RedisApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/NoSQL/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/java-middlewares.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Middlewares/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Middlewares/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringBoot/spring-boot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringBoot/src/main/java/xlab/java/spring/boot/SpringBootApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringBoot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringCloud/RegisterCenter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringCloud/RegisterCenter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringCloud/RegisterCenter/src/main/java/xlab/java/spring/clound/RegisterCenterApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringCloud/RegisterCenter/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringCloud/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/spring-framework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/src/main/java/xlab/java/spring/framework/SpringApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/src/main/java/xlab/java/spring/framework/ioc/di/DependencyInjectionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/src/main/java/xlab/java/spring/framework/ioc/di/IoC.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/target/classes/xlab/java/spring/framework/ioc/di/IoC.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringFramework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAll/SpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/spring-webmvc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/src/main/java/xlab/java/spring/web/mvc/SpringWebMVCApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/src/main/java/xlab/java/spring/web/mvc/controllers/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringMVC/target/test-classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/spring-shell.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/src/main/java/xlab/java/spring/shell/ChatGPTCLI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/SpringShell/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAll/spring-all.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/Utility.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/java-utility.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/src/main/java/xlab/java/utility/regex/IPv4Regex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/src/main/java/xlab/java/utility/regex/NetworkPortRegex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/src/main/java/xlab/java/utility/regex/ServiceAddressesRegex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/src/test/java/xlab/java/utility/regex/IPv4RegexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/src/test/java/xlab/java/utility/regex/NetworkPortRegexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/src/test/java/xlab/java/utility/regex/ServiceAddressesRegexTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utility/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/常见面试题.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2vm9AbsTQDtG6joxDNfvdsKXAsY" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb1ec095-5f6c-4500-88b7-492df827999c" name="Changes" comment="Refactor module name and artifact id." />
+      <created>1744739246045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744739246045</updated>
+      <workItem from="1744739264668" duration="773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="xlab.java.advanced.datastructure.tree.BinaryTree" memberName="right" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

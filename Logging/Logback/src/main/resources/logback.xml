@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://logback.qos.ch/xml"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="logback.xsd">
+  <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <!--<pattern>%d [%t] %-5p %c{36}:%M:%L - %m%n</pattern>-->
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread{20}] %logger{16}.%method:%line - %m%n</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="FileAppender"
+            class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <!--
+      - `%d{yyyy-MM-dd HH:mm:ss.SSS}` - 时间戳，格式为"年-月-日 时:分:秒.毫秒"
+      - `[%-5level]` - 日志级别，左对齐，宽度为5个字符（如：INFO、ERROR）
+      - `[%thread{20}]` - 线程名称，最大长度为20个字符
+      - `%logger{16}` - 记录器（类）名称，最大长度为16个字符
+      - `.%method` - 输出产生日志的方法名
+      - `:%line` - 输出代码行号
+      - `%m` - 日志消息内容
+      - `%n` - 换行符
+
+      输出示例：
+      ```
+      [2024-03-20 14:30:45.123] [INFO ] [main-thread       ] UserService.createUser:156 - User created successfully
+```
+      这种模式设计提供了详细的上下文信息，便于调试和问题追踪。
+      -->
+      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread{20}]
+        %logger{16}.%method:%line - %m%n</pattern>
+    </encoder>
+    <file>./logs/app.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <!-- rollover daily -->
+      <fileNamePattern>./logs/app-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      <!-- each file should be at most 10MB, keep 60 days worth of history, but at most 20GB -->
+      <maxHistory>60</maxHistory>
+      <totalSizeCap>20GB</totalSizeCap>
+      <maxFileSize>10MB</maxFileSize>
+    </rollingPolicy>
+    <!-- <triggeringPolicy class="ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicy"> -->
+    <!--   <maxFileSize>10MB</maxFileSize> -->
+    <!-- </triggeringPolicy> -->
+  </appender>
+
+  <root level="INFO">
+    <appender-ref ref="Console" />
+    <appender-ref ref="FileAppender" />
+  </root>
+</configuration>

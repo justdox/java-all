@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xlab.java.dataaccess.mybatis.mappers.CityMapper">
+  <sql id="pagination-where">
+    where id > 10
+  </sql>
+
+  <resultMap id="citiesMap" type="xlab.java.dataaccess.pojo.City"/>
+  <resultMap id="totalMap" type="java.lang.Integer"/>
+
+  <!--resultMap 必须是 resultMap 的 id-->
+  <select id="getCitiesByPage" resultMap="citiesMap,totalMap">
+    select * from city
+    <include refid="pagination-where"/>
+    limit ${(pageIndex - 1) * pageSize}, #{pageSize};
+
+    select count(*) as total from city
+    <include refid="pagination-where"/>;
+  </select>
+</mapper>

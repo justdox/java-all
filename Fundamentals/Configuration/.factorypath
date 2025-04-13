@@ -1,0 +1,5 @@
+<factorypath>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/learning/logging-log4j2/1.0-SNAPSHOT/logging-log4j2-1.0-SNAPSHOT.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>

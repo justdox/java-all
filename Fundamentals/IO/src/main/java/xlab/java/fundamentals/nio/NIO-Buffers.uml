@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="922.0" y="106.0">java.nio.ByteBufferAsCharBufferB</node>
+    <node x="-113.5" y="106.0">java.nio.DirectCharBufferS</node>
+    <node x="-118.5" y="226.0">java.nio.DirectCharBufferRS</node>
+    <node x="700.5" y="226.0">java.nio.DirectCharBufferRU</node>
+    <node x="725.5" y="106.0">java.nio.DirectCharBufferU</node>
+    <node x="-87.0" y="-14.0">java.nio.CharBuffer</node>
+    <node x="282.5" y="106.0">java.nio.ByteBufferAsCharBufferL</node>
+    <node x="88.5" y="226.0">java.nio.HeapCharBufferR</node>
+    <node x="297.5" y="226.0">java.nio.ByteBufferAsCharBufferRL</node>
+    <node x="93.5" y="106.0">java.nio.HeapCharBuffer</node>
+    <node x="531.0" y="106.0">java.nio.StringCharBuffer</node>
+    <node x="917.0" y="226.0">java.nio.ByteBufferAsCharBufferRB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.nio.DirectCharBufferRS" target="java.nio.DirectCharBufferS" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.ByteBufferAsCharBufferL" target="java.nio.CharBuffer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="396.0" y="60.0" />
+      <point x="-24.0" y="60.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.DirectCharBufferS" target="java.nio.CharBuffer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.ByteBufferAsCharBufferRL" target="java.nio.ByteBufferAsCharBufferL" relationship="GENERALIZATION">
+      <point x="-20.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.StringCharBuffer" target="java.nio.CharBuffer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="616.0" y="60.0" />
+      <point x="-24.0" y="60.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.HeapCharBuffer" target="java.nio.CharBuffer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="176.0" y="60.0" />
+      <point x="-24.0" y="60.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.DirectCharBufferRU" target="java.nio.DirectCharBufferU" relationship="GENERALIZATION">
+      <point x="20.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.HeapCharBufferR" target="java.nio.HeapCharBuffer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.ByteBufferAsCharBufferB" target="java.nio.CharBuffer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1036.0" y="60.0" />
+      <point x="-24.0" y="60.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.DirectCharBufferU" target="java.nio.CharBuffer" relationship="GENERALIZATION">
+      <point x="5.6843418860808015E-14" y="-14.0" />
+      <point x="816.0" y="60.0" />
+      <point x="-24.0" y="60.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.nio.ByteBufferAsCharBufferRB" target="java.nio.ByteBufferAsCharBufferB" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7210200927357032" showDependencies="false" x="361.56913183279744" y="100.87459807073958" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
