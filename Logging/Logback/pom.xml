@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Logback</name>
   <artifactId>logging-logback</artifactId>
   <packaging>jar</packaging>
 

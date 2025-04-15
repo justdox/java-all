@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>SpringShell</name>
   <artifactId>spring-shell</artifactId>
   <packaging>jar</packaging>
 

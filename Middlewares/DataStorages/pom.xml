@@ -10,12 +10,12 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>DataStorages</name>
   <groupId>xlab.java.middlewares.datastorages</groupId>
   <artifactId>middlewares-datastorages</artifactId>
   <packaging>pom</packaging>
 
   <modules>
-    <module>Redis</module>
   </modules>
 
   <dependencyManagement>

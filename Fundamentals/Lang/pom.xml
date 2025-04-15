@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Lang</name>
   <artifactId>fundamentals-lang</artifactId>
   <packaging>jar</packaging>
 

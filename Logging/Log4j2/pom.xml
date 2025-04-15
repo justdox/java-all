@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Log4j2</name>
   <artifactId>logging-log4j2</artifactId>
   <packaging>jar</packaging>
 

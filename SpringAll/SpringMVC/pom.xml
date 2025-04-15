@@ -10,8 +10,10 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>SpringMVC</name>
   <groupId>xlab.java.spring.web.mvc</groupId>
   <artifactId>spring-webmvc</artifactId>
+  <packaging>jar</packaging>
 
   <dependencies>
     <dependency>

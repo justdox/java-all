@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>RabbitMQ</name>
   <artifactId>messagequeues-rabbitmq</artifactId>
   <packaging>jar</packaging>
 

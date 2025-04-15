@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Slf4j</name>
   <artifactId>logging-slf4j</artifactId>
   <packaging>jar</packaging>
 

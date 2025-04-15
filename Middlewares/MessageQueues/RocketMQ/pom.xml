@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>RocketMQ</name>
   <artifactId>messagequeues-rocketmq</artifactId>
   <packaging>jar</packaging>
 

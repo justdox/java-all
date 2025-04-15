@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Networking</name>
   <artifactId>advanced-networking</artifactId>
   <packaging>jar</packaging>
 

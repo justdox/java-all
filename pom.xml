@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <name>JavaAll</name>
   <groupId>xlab</groupId>
   <artifactId>java-all</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>JavaAll</name>
 
   <properties>
     <java.version>9</java.version>
@@ -21,13 +21,14 @@
   </properties>
 
   <modules>
-    <module>EssentialClasses</module>
-    <module>DataAccess</module>
     <module>Advanced</module>
-    <module>Logging</module>
+    <module>DataAccess</module>
+    <module>EssentialClasses</module>
     <module>Fundamentals</module>
+    <module>Logging</module>
     <module>Middlewares</module>
     <module>SpringAll</module>
+    <module>Utility</module>
   </modules>
 
   <dependencyManagement>

@@ -9,7 +9,9 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>DataStructureAlgorithms</name>
   <artifactId>datastructure-algorithms</artifactId>
+  <packaging>jar</packaging>
 
   <properties>
     <maven.compiler.source>9</maven.compiler.source>

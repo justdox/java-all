@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Logging</name>
   <groupId>xlab.java.logging</groupId>
   <artifactId>java-logging</artifactId>
   <packaging>pom</packaging>

@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>DataAccess</name>
   <groupId>xlab.java.dataaccess</groupId>
   <artifactId>java-dataaccess</artifactId>
   <packaging>pom</packaging>

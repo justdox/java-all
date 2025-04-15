@@ -9,10 +9,10 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>RegisterCenter</name>
   <artifactId>register-center</artifactId>
   <packaging>jar</packaging>
 
-  <name>register-center</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>

@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Fundamentals</name>
   <groupId>xlab.java.fundamentals</groupId>
   <artifactId>java-fundamentals</artifactId>
   <packaging>pom</packaging>
@@ -19,6 +20,6 @@
     <module>CICD</module>
     <module>IO</module>
     <module>Lang</module>
-    <module>Util</module>
+    <module>Utils</module>
   </modules>
 </project>

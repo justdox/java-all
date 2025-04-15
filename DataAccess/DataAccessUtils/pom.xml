@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>DataAccessUtils</name>
   <artifactId>dataaccess-utils</artifactId>
   <packaging>jar</packaging>
 

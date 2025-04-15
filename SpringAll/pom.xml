@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>SpringAll</name>
   <groupId>xlab.java.spring</groupId>
   <artifactId>spring-all</artifactId>
   <packaging>pom</packaging>
@@ -19,10 +20,10 @@
   </properties>
 
   <modules>
-    <module>SpringFramework</module>
     <module>SpringBoot</module>
+    <module>SpringCloud</module>
+    <module>SpringFramework</module>
     <module>SpringMVC</module>
-    <module>SpringClound</module>
   </modules>
 
   <dependencyManagement>

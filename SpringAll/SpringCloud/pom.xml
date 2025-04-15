@@ -17,6 +17,7 @@
     <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;
   </parent> -->
 
+  <name>SpringCloud</name>
   <groupId>xlab.java.spring.cloud</groupId>
   <artifactId>spring-cloud</artifactId>
   <packaging>pom</packaging>

@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Advanced</name>
   <groupId>xlab.java.advanced</groupId>
   <artifactId>java-advanced</artifactId>
   <packaging>pom</packaging>

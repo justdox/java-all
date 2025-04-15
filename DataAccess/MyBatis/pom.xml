@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Mybatis</name>
   <artifactId>dataaccess-mybatis</artifactId>
   <packaging>jar</packaging>
 

@@ -10,9 +10,11 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Middlewares</name>
   <groupId>xlab.java.middlewares</groupId>
   <artifactId>java-middlewares</artifactId>
   <packaging>pom</packaging>
+  
   <modules>
     <module>MessageQueues</module>
     <module>DataStorages</module>

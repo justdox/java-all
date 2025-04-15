@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>Threading</name>
   <artifactId>advanced-threading</artifactId>
   <packaging>jar</packaging>
 

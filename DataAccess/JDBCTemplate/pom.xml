@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
+  <name>JDBCTemplate</name>
   <artifactId>dataaccess-jdbc-template</artifactId>
   <packaging>jar</packaging>
 
