@@ -11,7 +11,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <java.version>9</java.version>
+    <java.version>17</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -44,9 +44,9 @@
         <artifactId>logback-classic</artifactId>
         <!--1.3.x JDK 8-->
         <!--<version>1.3.4</version>-->
-        <version>1.2.11</version>
+        <!-- <version>1.2.11</version> -->
         <!--1.4.x JDK 11+-->
-        <!--<version>1.4.3</version>-->
+        <version>1.4.12</version>
       </dependency>
 
       <dependency>

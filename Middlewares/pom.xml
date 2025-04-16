@@ -18,6 +18,7 @@
   <modules>
     <module>MessageQueues</module>
     <module>DataStorages</module>
+    <module>NoSQL</module>
   </modules>
 
 </project>
