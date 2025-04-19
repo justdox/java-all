@@ -20,6 +20,8 @@
     <module>Threading</module>
     <module>Networking</module>
     <module>DataStructureAlgorithms</module>
+    <module>DesignPatterns</module>
+    <module>Concurrency</module>
   </modules>
 
 </project>

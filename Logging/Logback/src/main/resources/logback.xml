@@ -28,8 +28,9 @@
 ```
       这种模式设计提供了详细的上下文信息，便于调试和问题追踪。
       -->
-      <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread{20}]
-        %logger{16}.%method:%line - %m%n</pattern>
+      <pattern>
+        [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread{20}] %logger{16}.%method:%line - %m%n
+      </pattern>
     </encoder>
     <file>./logs/app.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">

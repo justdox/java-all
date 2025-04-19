@@ -9,13 +9,11 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <name>DesignPattern</name>
-  <artifactId>design-pattern</artifactId>
+  <name>DesignPatterns</name>
+  <artifactId>design-patterns</artifactId>
   <packaging>jar</packaging>
 
   <properties>
-    <maven.compiler.source>9</maven.compiler.source>
-    <maven.compiler.target>9</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
