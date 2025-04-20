@@ -11,5 +11,7 @@ public class ThreadSynchronizationDemos {
     new ThreadSynchronizationUsingSynchronizedMethod(0, 10).run();
 
     new ThreadSynchronizationUsingCountDownLatch(0, 10).run();
+
+    new ThreadPoolSynchronizationUsingCountDownLatch(0, 10).run();
   }
 }
